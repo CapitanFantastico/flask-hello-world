@@ -26,3 +26,9 @@ jobs:
 
       - name: Clonando el repositorio
         uses: actions/checkout@v4
+
+      - name: "Paso 2 - Comando adicional después de clonar"
+        run: |
+          echo "Este es el segundo run después de clonar el repositorio"
+          cd /home/runner/work/mi-repositorio
+          ls -la
