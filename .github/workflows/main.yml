@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: actions_tjhoan
+name: actions_jhoan2
 
 # Controls when the workflow will run
 on:
@@ -22,9 +22,8 @@ jobs:
     steps:
       - name: "Paso 1"
         run: |
-              echo "Hola mundo"
+              echo "Hola mundo"
               hostname
               pwd
               ls -l
-              find .
-          
+              find .
